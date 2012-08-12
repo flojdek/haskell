@@ -5,5 +5,5 @@ Haskell examples.
 
 * network/echoserver.hs
 
-  Echo server implementation. Usage is <i>./echoserver</i> &le;port&ge;, then 
-  <i>telnet</i> localhost &le;port&ge; to test.
+  Echo server implementation. Usage is <i>./echoserver &lt;port&gt;</i>, then 
+  <i>telnet localhost &lt;port&gt;</i> to test.
