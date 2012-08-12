@@ -5,4 +5,4 @@ Haskell examples.
 
 * network/echoserver.hs
 
-Echo server implementation.
+  Echo server implementation.
