@@ -1,6 +1,5 @@
 import Control.Concurrent
 import Control.Monad
-import qualified Data.ByteString.Lazy as BL
 import Network
 import System.Environment
 import System.IO
