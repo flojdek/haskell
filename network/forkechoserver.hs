@@ -36,4 +36,4 @@ handleSingleConn handle host port = do
             handleSingleConn handle host port
 
 exHandler :: IOError -> IO ()
-exHandler e = putStrLn "Houston, we have a problem."
+exHandler e = putStrLn "houston, we have a problem"
