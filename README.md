@@ -3,7 +3,17 @@ haskell
 
 Haskell examples.
 
-* network/echoserver.hs, network/forkechoserver.hs
+* network/echoserver.hs
 
-  Echo server implementation. Usage is <i>./echoserver &lt;port&gt;</i>, then 
-  <i>telnet localhost &lt;port&gt;</i> to test.
+  Echo server implementation. 
+  Usage: <i>./echoserver &lt;port&gt;</i>
+
+* network/forkechoserver.hs
+
+  Echo server using forkIO to handle client connections.
+  Usage: <i>./echoserver &lt;port&gt;</i>
+
+* network/getaddrinfo.hs
+
+  Example usage of <a href="http://pubs.opengroup.org/onlinepubs/009695399/functions/getaddrinfo.html">getaddrinfo</a>.
+  Usage: <i>./getaddrinfo &lt;host&gt; &lt;port&gt;
