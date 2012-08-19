@@ -1,5 +1,5 @@
-import Network.Socket hiding (send, sendTo, recv, recvFrom)
-import Network.Socket.ByteString
+import Network.Socket
+import System.Environment
 
 main = withSocketsDo $ do
     (host:port:_) <- getArgs
