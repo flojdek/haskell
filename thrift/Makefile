@@ -5,7 +5,7 @@ test: $(GEN_SRCS) $(SRCS)
 	ghc --make $(GEN_SRCS) $(SRCS)
 
 $(GEN_SRCS): product.thrift
-	thrift --gen hs product.thrift
+	thrift --gen hs $<
 
 .PHONY: clean
 clean:
