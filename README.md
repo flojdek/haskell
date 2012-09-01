@@ -18,6 +18,6 @@ Haskell examples.
   Example usage of <a href="http://pubs.opengroup.org/onlinepubs/009695399/functions/getaddrinfo.html">getaddrinfo</a>.
   Usage: <i>./getaddrinfo &lt;host&gt; &lt;port&gt;</i>
 
-* thrift/
+* thrift/test
 
   Basic usage example of Apache Thrift with haskell. Define a message and print it. Just type <i>make</i> and <i>./test</i>.
