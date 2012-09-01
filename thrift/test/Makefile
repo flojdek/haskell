@@ -9,4 +9,5 @@ $(GEN_SRCS): product.thrift
 
 .PHONY: clean
 clean:
-	find . -name '*.o' -o -name '*.hi' -o -name 'test' | xargs -L1 rm
+	find . -name '*.o' -o -name '*.hi' -o -name 'test' -type f | xargs -L1 rm -rf
+	rm -rf gen-hs
