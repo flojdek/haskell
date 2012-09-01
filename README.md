@@ -3,6 +3,10 @@ haskell
 
 Haskell examples.
 
+* monads/state/stack.hs
+
+  State monad used for stack implementation.
+
 * network/echoserver.hs
 
   Echo server implementation. 

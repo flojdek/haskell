@@ -9,3 +9,7 @@ struct Product {
     3: Currency    currency,
     4: set<string> tags
 }
+
+service Expenses {
+    i32 addProduct(1:Product product)
+}
